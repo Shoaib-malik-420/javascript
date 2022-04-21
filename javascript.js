@@ -36,19 +36,22 @@
 // var vf2vi2 = (vi * t) + ((1 * a * t * t) /2 );
 // document.write("<h1> answer of initial velocity & final velocity is :" + vf2vi2 + "</h1>");
 
-var Name = prompt("What is your name");
-document.write("your name is" + Name)
-var english = parseFloat( prompt("ente your english marks"));
-var urdu = parseFloat( prompt("ente your urdu marks"));
-var physics = parseFloat( prompt("ente your physics marks"));
-var chemistry = parseFloat( prompt("ente your chemistry marks"));
-var computer = parseFloat( prompt("ente your computer marks"));
+// var Name = prompt("What is your name");
+// document.write("your name is" + Name)
+// var english = parseFloat( prompt("ente your english marks"));
+// var urdu = parseFloat( prompt("ente your urdu marks"));
+// var physics = parseFloat( prompt("ente your physics marks"));
+// var chemistry = parseFloat( prompt("ente your chemistry marks"));
+// var computer = parseFloat( prompt("ente your computer marks"));
 
-var total = (english + urdu + physics + chemistry + computer);
-document.write("total marks is :" + total );
+// var total = (english + urdu + physics + chemistry + computer);
+// document.write("total marks is :" + total );
 
-var pc = ((total / 250) * 100);
-document.write("your percentage is :" + pc + "%");
+// var pc = ((total / 250) * 100);
+// document.write("your percentage is :" + pc + "%");
+
+
+
 
 
 

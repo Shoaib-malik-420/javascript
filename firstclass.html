@@ -33,6 +33,48 @@
                     //   var result = m1*m2/(r*r);
                     //   document.write("result :" + result )
                 
+                    var puri = parseInt(prompt("how many puries do you want to purchase"));
+                    var totalpuri = puri * 29;
+                    var halwa = parseFloat(prompt("how much halwa do you want"));
+                    var aloo = parseFloat(prompt("how much aloo ki plate do you want"));
+                    var cholay = parseFloat(prompt("how much cholay do you want"));
+                    var achar = parseFloat(prompt("how much achar do you want"));
+
+                 
+
+                    var halwabill = halwa * 20;
+                    var aloobill = aloo * 55; 
+                    var cholaybill = cholay * 100; 
+                    var acharbill = achar * 15;
+
+
+                    var totalbill = totalpuri + halwabill + aloobill + cholaybill + acharbill;
+                    var tax = totalbill * 0.16;
+                    var amountpayable = totalbill + tax;
+
+                    
+                    
+
+
+
+
+                    document.write("quantity" + puri + "<hr/><br/>");
+                    document.write("your total bill of puri is :" + totalpuri +"<hr/><br/>");
+                    document.write("your total bill of halwa is :" + halwabill +"<hr/><br/>");
+                    document.write("your total bill of aloo is :" + aloobill +"<hr/><br/>");
+                    document.write("your total bill of cholay is :" + cholaybill +"<hr/><br/>");
+                    document.write("your total bill of achar is :" + acharbill +"<hr/><br/>");
+                    document.write("your total bill is :" + totalbill +"<hr/><br/>");
+                    document.write("your total tax is :" + tax +"<hr/><br/>");
+                    document.write("your total amount pyable is :" + amountpayable +"<hr/><br/>");
+
+
+
+
+                    
+
+
+
                 
 
 
