@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center border border-dark">Currency Converter</h1>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h3>Enter Currency In Rupees</h3>
+            </div>
+            <div class="col-md-4">
+                <input type="Number" id="input currency" class="form-control" placeholder="Enter Currency In Rupees" required>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h5>Select Currency</h5>
+            </div>
+            <div class="col-md-5">
+                <select id="units" class="form-control">
+                    <option value="gg">Select Currency</option>
+                    <option value="Dollor">Dollor</option>
+                    <option value="Dirham">Dirham</option>
+                    <option value="Taka">Taka</option>
+                    <option value="Euro">Euro</option>
+                    <option value="Riyal">Riyal</option>
+                    <option value="Dinnar">Dinnar</option>
+                    <option value="Pound">Pound</option>
+                    <option value="Indian Rs">Indian Rs</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary form-control" onclick="Convert()">Convert</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-5">
+                <input type="text" class="form-control" id="Result" placeholder="Your Result" readonly>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="currency converter.js"></script>
+</body>
+</html>
