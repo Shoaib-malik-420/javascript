@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-2">
+                <h6>Enter Your Name</h6>
+            </div>
+
+            <div class="col-md-6">
+                <input type="text" id="username" class="form-control">
+            </div>
+
+            <div class="col-md-4">
+                <button class="btn btn-success btn-block" onclick="adddata()">ADD</button>
+            </div>
+        </div>
+
+        <div class="mt-4 container">
+            <h4 class="text-info">Data Will Show Here</h4>
+            
+            <select name="text" id="drop" class="form-control">
+                <option value="">
+
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <script src="adddata.js"></script>
+</body>
+</html>
